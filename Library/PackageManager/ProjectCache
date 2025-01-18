@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638728029142886812
-    m_Hash: 111668099
+      ticks: 638728346898337054
+    m_Hash: 3237966592
   m_LockFileStatus:
     m_FilePath: D:/UnityProjects/GardenOfDreams/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638728029246431202
-    m_Hash: 1330644085
+      ticks: 638728346898347064
+    m_Hash: 2804797283
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
