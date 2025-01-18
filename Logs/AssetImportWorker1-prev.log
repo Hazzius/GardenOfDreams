@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-D:/UnityProjects/Garden of Dreams
+D:/UnityProjects/GardenOfDreams
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64380
-Successfully changed project path to: D:/UnityProjects/Garden of Dreams
-D:/UnityProjects/Garden of Dreams
+64710
+Successfully changed project path to: D:/UnityProjects/GardenOfDreams
+D:/UnityProjects/GardenOfDreams
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,15 +47,15 @@ D:/UnityProjects/Garden of Dreams
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16592] Host "[IP] 192.168.88.25 [Port] 0 [Flags] 2 [Guid] 940697578 [EditorId] 940697578 [Version] 1048832 [Id] WindowsEditor(7,Fellar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [12768] Host "[IP] 192.168.88.25 [Port] 0 [Flags] 2 [Guid] 2281033797 [EditorId] 2281033797 [Version] 1048832 [Id] WindowsEditor(7,Fellar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [16592] Host "[IP] 192.168.88.25 [Port] 0 [Flags] 2 [Guid] 940697578 [EditorId] 940697578 [Version] 1048832 [Id] WindowsEditor(7,Fellar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12768] Host "[IP] 192.168.88.25 [Port] 0 [Flags] 2 [Guid] 2281033797 [EditorId] 2281033797 [Version] 1048832 [Id] WindowsEditor(7,Fellar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 54.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 54.06 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/UnityProjects/Garden of Dreams/Assets
+[Subsystems] Discovering subsystems at path D:/UnityProjects/GardenOfDreams/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -67,82 +67,82 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004887 seconds.
+Registered in 0.005368 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 239 ms
+Android Extension - Scanning For ADB Devices 256 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 59.28 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 55.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
+- Completed reload, in  0.775 seconds
 Domain Reload Profiling:
-	ReloadAssembly (756ms)
-		BeginReloadAssembly (66ms)
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (69ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (613ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (629ms)
+			LoadAssemblies (67ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (79ms)
+			SetupTypeCache (80ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (474ms)
+			SetupLoadedEditorAssemblies (488ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (309ms)
+				InitializePlatformSupportModulesInManaged (326ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (59ms)
+				RefreshPlugins (56ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (71ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002597 seconds.
+Registered in 0.002485 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Garden of Dreams\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\Garden of Dreams\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\GardenOfDreams\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\GardenOfDreams\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.798 seconds
+- Completed reload, in  0.767 seconds
 Domain Reload Profiling:
-	ReloadAssembly (799ms)
+	ReloadAssembly (768ms)
 		BeginReloadAssembly (96ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (620ms)
-			LoadAssemblies (71ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (587ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (196ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (290ms)
+			SetupTypeCache (185ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (267ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
+				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (187ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				BeforeProcessingInitializeOnLoad (58ms)
+				ProcessInitializeOnLoadAttributes (167ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -151,12 +151,12 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3052 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (284.1 KB). Loaded Objects now: 3531.
-Memory consumption went from 124.5 MB to 124.2 MB.
-Total: 2.381000 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.070100 ms MarkObjects: 2.043300 ms  DeleteObjects: 0.048900 ms)
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (284.4 KB). Loaded Objects now: 3543.
+Memory consumption went from 125.6 MB to 125.3 MB.
+Total: 3.893900 ms (FindLiveObjects: 0.249300 ms CreateObjectMapping: 0.076100 ms MarkObjects: 3.479200 ms  DeleteObjects: 0.088600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -171,113 +171,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 19042.162691 seconds.
-  path: Assets/AssetStore/Baker House/Prefabs/Barrel.prefab
-  artifactKey: Guid(6e604c269b8519d4486bbbc982b9afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/Baker House/Prefabs/Barrel.prefab using Guid(6e604c269b8519d4486bbbc982b9afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79bafa373b833a73b16bfabed4f992c2') in 0.140395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.069331 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Materials/MedievalTownLite_Emission.mat
-  artifactKey: Guid(73539b96b877a34438c436a0ef700c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Materials/MedievalTownLite_Emission.mat using Guid(73539b96b877a34438c436a0ef700c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf6f536ce8cf3d65b03752f4cfd17d3') in 0.182249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Materials/MedievalTownLite_Nature.mat
-  artifactKey: Guid(c52178879e8e28e4fbbea32638564cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Materials/MedievalTownLite_Nature.mat using Guid(c52178879e8e28e4fbbea32638564cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3361cb68b0eebd17b176de44e536ed66') in 0.196881 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Models/FlowerPot_03.fbx
-  artifactKey: Guid(089f1b370459c0e45b5f5a295849b18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Models/FlowerPot_03.fbx using Guid(089f1b370459c0e45b5f5a295849b18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fe9d5a2f5891fdb57f8d9d8b8b6011') in 0.168004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Models/HouseBase_03.fbx
-  artifactKey: Guid(d09939746e87823448a3634191a50b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Models/HouseBase_03.fbx using Guid(d09939746e87823448a3634191a50b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5cb9757a7a83a8636fcb0f9e9616ad6') in 0.019130 seconds 
+  Time since last request: 44264.849539 seconds.
+  path: Assets/Terrain/TerrainData_6275791b-f4e2-4dde-860e-89c8e0d2664b.asset
+  artifactKey: Guid(5797d604ef6888143b361ae2db9e0e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_6275791b-f4e2-4dde-860e-89c8e0d2664b.asset using Guid(5797d604ef6888143b361ae2db9e0e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '71b395606abfe03a75cb8718c2534c57') in 0.092384 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Models/Corner_01.fbx
-  artifactKey: Guid(ef0ac6ba221fc8d4c9a218702e7255ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Models/Corner_01.fbx using Guid(ef0ac6ba221fc8d4c9a218702e7255ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1077e206355471cf5ed08fc1d986b0') in 0.019766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Models/HouseWall_08.fbx
-  artifactKey: Guid(f8a8c40c38c3827428f0d23ae93856a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Models/HouseWall_08.fbx using Guid(f8a8c40c38c3827428f0d23ae93856a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca903b580b7622d6141f9a6721b30635') in 0.014715 seconds 
+  path: Assets/Terrain/TerrainData_a19409e4-5fde-411e-b977-78e606dba2d3.asset
+  artifactKey: Guid(2269815ac3e555440a40aac42368d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_a19409e4-5fde-411e-b977-78e606dba2d3.asset using Guid(2269815ac3e555440a40aac42368d062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '42f673a6d5ad338f30aa2d8ea6757882') in 0.021723 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000020 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Materials/MedievalTownLite_MAIN.mat
-  artifactKey: Guid(8ac1bd3773470b84dbf2520b9b1660e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Materials/MedievalTownLite_MAIN.mat using Guid(8ac1bd3773470b84dbf2520b9b1660e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b86341cea649a146cbefd3c3af24cb1') in 0.118790 seconds 
+  path: Assets/Terrain/TerrainData_d815d17e-70e1-4699-ba60-fb3dcabb094f.asset
+  artifactKey: Guid(673e3f11d56c4bf4cac08c8f215a5f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain/TerrainData_d815d17e-70e1-4699-ba60-fb3dcabb094f.asset using Guid(673e3f11d56c4bf4cac08c8f215a5f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The tree Tree_06 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: '34a1b566e7c69148a1b577d02458bdb0') in 0.018617 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/HouseWall_08_LITE.prefab
-  artifactKey: Guid(bd0bdebacec96e1459c665ca7de79712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/HouseWall_08_LITE.prefab using Guid(bd0bdebacec96e1459c665ca7de79712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c711c280e4b543b0e3770309dc9c3c') in 0.007812 seconds 
+  Time since last request: 28.709794 seconds.
+  path: Assets/TerrainLayers/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_up.png
+  artifactKey: Guid(0ce40b506ba1e10418a120c2ec1c4012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/Textures/Dirt/dirt_overdesatured/dirt_overdesatured_up.png using Guid(0ce40b506ba1e10418a120c2ec1c4012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b34b920a2774fcbec275fb345d169d9') in 0.014414 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/Floor_01_LITE.prefab
-  artifactKey: Guid(7a660ebf797107540b2e0443416860fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/Floor_01_LITE.prefab using Guid(7a660ebf797107540b2e0443416860fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4126e1d354830a6cefa43d9835d0eb76') in 0.006234 seconds 
+  Time since last request: 60.373901 seconds.
+  path: Assets/TerrainLayers/03.terrainlayer
+  artifactKey: Guid(9d3c14d093c5efa488e582f9a1b2f663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/03.terrainlayer using Guid(9d3c14d093c5efa488e582f9a1b2f663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5701aa35ea6d54747f3e0c8dfd565e7f') in 0.009719 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/Lantern_01_LITE.prefab
-  artifactKey: Guid(3e833f3c41837e2499848cbd3a40b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/Lantern_01_LITE.prefab using Guid(3e833f3c41837e2499848cbd3a40b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a96812a13804863b5ea3001759d7a0') in 0.006962 seconds 
+  Time since last request: 7.317254 seconds.
+  path: Assets/TerrainLayers/01tex.png
+  artifactKey: Guid(85ed2b41abc7c82499e10ac4feaa0590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/01tex.png using Guid(85ed2b41abc7c82499e10ac4feaa0590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c58521a9aad8564be47a734c8b78f90b') in 0.008764 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/HouseWall_02_LITE.prefab
-  artifactKey: Guid(ca12e4d3b8ba552408c001532eecb3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/HouseWall_02_LITE.prefab using Guid(ca12e4d3b8ba552408c001532eecb3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae027d58eedcb91a1e57940a79fa7d97') in 0.006269 seconds 
+  Time since last request: 32.471035 seconds.
+  path: Assets/TerrainLayers/06layer.terrainlayer
+  artifactKey: Guid(799b17a5976350a4699e3fe5773d8e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/06layer.terrainlayer using Guid(799b17a5976350a4699e3fe5773d8e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baf0a9bc6011c2c4df940f07219defca') in 0.009653 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/HouseBase_03_LITE.prefab
-  artifactKey: Guid(3cf57bb0c3bf0e14dae5d174e1c87e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/HouseBase_03_LITE.prefab using Guid(3cf57bb0c3bf0e14dae5d174e1c87e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '633c5ca19b81ff573c69a94e6db09502') in 0.006243 seconds 
+  Time since last request: 6.976255 seconds.
+  path: Assets/TerrainLayers/06tex.png
+  artifactKey: Guid(7334f41aedeae534fb57921b121a9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/06tex.png using Guid(7334f41aedeae534fb57921b121a9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084f15042d514e37e35659606b259898') in 0.009286 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/HouseWall_11_LITE.prefab
-  artifactKey: Guid(61b9dd48e54ad8f48b34dd5d75bb8e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/HouseWall_11_LITE.prefab using Guid(61b9dd48e54ad8f48b34dd5d75bb8e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe95c9b44936c09e46a3068eac10d686') in 0.172713 seconds 
+  Time since last request: 2.735633 seconds.
+  path: Assets/TerrainLayers/05tex.png
+  artifactKey: Guid(af53ed92faa41fd4ebd43ac7e1a8c086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/05tex.png using Guid(af53ed92faa41fd4ebd43ac7e1a8c086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781a3d228dbb53471b0f50fdfa327946') in 0.009881 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/Corner_01_LITE.prefab
-  artifactKey: Guid(4922535dfb84575409797fc05fc8044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/Corner_01_LITE.prefab using Guid(4922535dfb84575409797fc05fc8044e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d6a649546166e9fdc794d51ba26e1b') in 0.005648 seconds 
+  Time since last request: 4.493753 seconds.
+  path: Assets/TerrainLayers/02tex.png
+  artifactKey: Guid(9de32f657d23953449e678af4ca10dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/02tex.png using Guid(9de32f657d23953449e678af4ca10dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24208ccc6e2a0bfc82e1fd7192d7dfc7') in 0.010318 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Models/HouseRoof_02.fbx
-  artifactKey: Guid(3eaf9b5e0db8445458416f573951c626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Models/HouseRoof_02.fbx using Guid(3eaf9b5e0db8445458416f573951c626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '197073343af080f451343fe11cba39cf') in 0.020116 seconds 
+  Time since last request: 6.990558 seconds.
+  path: Assets/TerrainLayers/04tex.png
+  artifactKey: Guid(9234305f12ded3442b911c3ff978d340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/04tex.png using Guid(9234305f12ded3442b911c3ff978d340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1be0075f362dfb2c99017cc44356df8') in 0.009366 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/Stairs_01_LITE.prefab
-  artifactKey: Guid(3b98afa4672041948bc8d9708f0dec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Prefabs/Stairs_01_LITE.prefab using Guid(3b98afa4672041948bc8d9708f0dec82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d71450fbb6ed81518328b78437bae94') in 0.005982 seconds 
+  Time since last request: 3.537190 seconds.
+  path: Assets/TerrainLayers/00tex.png
+  artifactKey: Guid(6e3abed3edda0ae4b876a53ee95f7d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/00tex.png using Guid(6e3abed3edda0ae4b876a53ee95f7d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d4c9ee9eaea59b077dd3d7928abf3f') in 0.010141 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/AssetStore/FantasyMedievalTown_LITE/Models/Rock_01.fbx
-  artifactKey: Guid(07713a36c4ecb2a488a4e82794bd578a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetStore/FantasyMedievalTown_LITE/Models/Rock_01.fbx using Guid(07713a36c4ecb2a488a4e82794bd578a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c72806a0b1ce6d29fdfac94d1806500') in 0.014200 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 12.666460 seconds.
+  path: Assets/TerrainLayers/03tex.png
+  artifactKey: Guid(16fdc16af892fc745890a4d5720a58dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainLayers/03tex.png using Guid(16fdc16af892fc745890a4d5720a58dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e41477d8d1ebacb948da57e1ca06b6d') in 0.009448 seconds 
