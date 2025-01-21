@@ -1,0 +1,349 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 32677 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/UnityProjects/GardenOfDreams
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+56624
+Successfully changed project path to: D:/UnityProjects/GardenOfDreams
+D:/UnityProjects/GardenOfDreams
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19368] Host "[IP] 192.168.88.25 [Port] 0 [Flags] 2 [Guid] 674800353 [EditorId] 674800353 [Version] 1048832 [Id] WindowsEditor(7,Fellar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19368] Host "[IP] 192.168.88.25 [Port] 0 [Flags] 2 [Guid] 674800353 [EditorId] 674800353 [Version] 1048832 [Id] WindowsEditor(7,Fellar) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 65.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/GardenOfDreams/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1b80)
+    Vendor:   NVIDIA
+    VRAM:     8059 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004981 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 231 ms
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 57.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.746 seconds
+Domain Reload Profiling:
+	ReloadAssembly (746ms)
+		BeginReloadAssembly (65ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (606ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (77ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (302ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (72ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002639 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\GardenOfDreams\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\UnityProjects\GardenOfDreams\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.760 seconds
+Domain Reload Profiling:
+	ReloadAssembly (761ms)
+		BeginReloadAssembly (114ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (567ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (182ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (262ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3053 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (284.5 KB). Loaded Objects now: 3543.
+Memory consumption went from 125.8 MB to 125.5 MB.
+Total: 2.358400 ms (FindLiveObjects: 0.158800 ms CreateObjectMapping: 0.069300 ms MarkObjects: 2.065100 ms  DeleteObjects: 0.064500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 125139.853260 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Prefabs/Barrel_1.prefab
+  artifactKey: Guid(8b6a94e46a7a3ce4694a73a263603d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Prefabs/Barrel_1.prefab using Guid(8b6a94e46a7a3ce4694a73a263603d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7e17dd0cea906cbb392885b762bfa17') in 0.120837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 97.061506 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Prefabs/Barrel_1.prefab
+  artifactKey: Guid(8b6a94e46a7a3ce4694a73a263603d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Prefabs/Barrel_1.prefab using Guid(8b6a94e46a7a3ce4694a73a263603d0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020e0306d85d07c621a83ff9cab20b90') in 0.011137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.280275 seconds.
+  path: Assets/Environment/Buildings/House_00.prefab
+  artifactKey: Guid(1bbb91c8d96cb2446a07151ce95d1f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Buildings/House_00.prefab using Guid(1bbb91c8d96cb2446a07151ce95d1f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c52072c05b1b494054b051b24c08bd18') in 0.006869 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.526169 seconds.
+  path: Assets/Environment/Details/Barrel_00.prefab
+  artifactKey: Guid(6e604c269b8519d4486bbbc982b9afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Details/Barrel_00.prefab using Guid(6e604c269b8519d4486bbbc982b9afa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5ed1d1cbf63b8450fa3703997eec286') in 0.006242 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011627 seconds.
+  path: Assets/Environment/Details/Cabbage_01.prefab
+  artifactKey: Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Details/Cabbage_01.prefab using Guid(aec8969d0290c6d4cbc587ef85a01ce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a528e3893a5f7537049edee945ab410a') in 0.009116 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Environment/Details/Fence_01.prefab
+  artifactKey: Guid(cb422acdc199d6e42910f589b81c283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Details/Fence_01.prefab using Guid(cb422acdc199d6e42910f589b81c283b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6631a15f0bf14542a7bb519cb0a45a3a') in 0.007330 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Environment/Details/Lantern_01_LITE.prefab
+  artifactKey: Guid(3e833f3c41837e2499848cbd3a40b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Details/Lantern_01_LITE.prefab using Guid(3e833f3c41837e2499848cbd3a40b527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7415fe7519e7609a07a53a219af43582') in 0.010671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment/Details/Stump_01.prefab
+  artifactKey: Guid(eebb56c82efbd8d4bb0eb6bd925a0e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Details/Stump_01.prefab using Guid(eebb56c82efbd8d4bb0eb6bd925a0e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19eb805f9d1bda8dbad58e0a53fd5da') in 0.011526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Environment/Details/Box_01.prefab
+  artifactKey: Guid(d26dc1241d332c342b898a57f1164932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Details/Box_01.prefab using Guid(d26dc1241d332c342b898a57f1164932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5edc99470e569301d6cec07a9cb6cd2') in 0.007032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Environment/Details/Tomato_03.prefab
+  artifactKey: Guid(fd8e0760db14a534a89257f68a4f2a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Details/Tomato_03.prefab using Guid(fd8e0760db14a534a89257f68a4f2a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993b2e3a22da706acd83db18c0ff259f') in 0.007511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Environment/Details/WateringCan_01.prefab
+  artifactKey: Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/Details/WateringCan_01.prefab using Guid(8877f4aac7d3c184ea4954647487e084) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7594265feacd6758bc91e46de7d325') in 0.009667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.671750 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1.png
+  artifactKey: Guid(44c0b5e4806810d48acfc62b5e8beafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1.png using Guid(44c0b5e4806810d48acfc62b5e8beafa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973b2d473450690d7739c22632b164c5') in 0.011109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_normals.png
+  artifactKey: Guid(0d1eb9d222af4a74993b08a236d8ce3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_normals.png using Guid(0d1eb9d222af4a74993b08a236d8ce3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62f398fb41f092622267cb856a23d02') in 0.006370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Texture/Texture_2_normal_2k.png
+  artifactKey: Guid(af7f7040e38868b41a138f2dac73a62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Texture/Texture_2_normal_2k.png using Guid(af7f7040e38868b41a138f2dac73a62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e0e995329574704b41f136f7130127') in 0.006384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Texture/Texture_5_normal_2k.png
+  artifactKey: Guid(6c9d9a845a3cd86439eafdeb7e19b660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Texture/Texture_5_normal_2k.png using Guid(6c9d9a845a3cd86439eafdeb7e19b660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a607e9f1f44166321f64c42987824e99') in 0.006759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_grass_2.terrainlayer
+  artifactKey: Guid(8407fb4fbeddb4a4597e3990a2c0e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Texture/Ground_dirt_1_grass_2.terrainlayer using Guid(8407fb4fbeddb4a4597e3990a2c0e329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bc7c338f8386d3110ea0e6975804c8') in 0.012928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Texture/Texture_4_2k.png
+  artifactKey: Guid(8c68af898286b5148902f3a332789035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Texture/Texture_4_2k.png using Guid(8c68af898286b5148902f3a332789035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9231befc4d8eadbb24ddc56e77270881') in 0.006744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Texture/Texture_1_2k.png
+  artifactKey: Guid(2c1fc44fd827f17459052df843708595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Texture/Texture_1_2k.png using Guid(2c1fc44fd827f17459052df843708595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '041749572c3b264abd687c0af628dd0b') in 0.007909 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Texture/Ground_grass_normals.png
+  artifactKey: Guid(91df66b4970c4834da0bed7e35b84ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Texture/Ground_grass_normals.png using Guid(91df66b4970c4834da0bed7e35b84ac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c756b106c9aba9b11d6bcef9742afd') in 0.006315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/Texture/Texture_6_2k.png
+  artifactKey: Guid(e80a0417e7f0c144982829af0bc734f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/Texture/Texture_6_2k.png using Guid(e80a0417e7f0c144982829af0bc734f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f29f4f69123230fb25b9588cfd8ac39') in 0.006260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.258400 seconds.
+  path: Assets/Charttyp/Stylized fantasy pagan village/PostProcess/Main Camera Profile.asset
+  artifactKey: Guid(06ca74fa0f957cc4a8bcc6939e36f702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Charttyp/Stylized fantasy pagan village/PostProcess/Main Camera Profile.asset using Guid(06ca74fa0f957cc4a8bcc6939e36f702) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb4628af480ae2c9193baeb63d668b8f') in 0.002863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.032041 seconds.
+  path: Assets/Environment/_Resources/Models/Baker_house.FBX
+  artifactKey: Guid(e36cf732b73e87f458b5e69d2c1f6417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/_Resources/Models/Baker_house.FBX using Guid(e36cf732b73e87f458b5e69d2c1f6417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30982e46fcf6675946f03d5a10e01e2a') in 0.023082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Environment/_Resources/Models/FlowerPot_03.fbx
+  artifactKey: Guid(089f1b370459c0e45b5f5a295849b18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/_Resources/Models/FlowerPot_03.fbx using Guid(089f1b370459c0e45b5f5a295849b18c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73307f1778933eb854f83f501a4bf424') in 0.014843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Environment/_Resources/Models/Ground_02.fbx
+  artifactKey: Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/_Resources/Models/Ground_02.fbx using Guid(57d3eed6d2253d24994d5ad37e00aedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcb86173b98368eaa94754f1ef31b15') in 0.006255 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Environment/_Resources/Models/Bush_03.fbx
+  artifactKey: Guid(7b5a098d913a3c74692a2a9963dbd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/_Resources/Models/Bush_03.fbx using Guid(7b5a098d913a3c74692a2a9963dbd3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808e3cea1d570ba50467d2d6f0907ee9') in 0.016024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Environment/_Resources/Models/Cabbage_01.fbx
+  artifactKey: Guid(0f50786d35eebcf44805f9d5fb326c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/_Resources/Models/Cabbage_01.fbx using Guid(0f50786d35eebcf44805f9d5fb326c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c6e47a63197a53a73c7466b12052c31') in 0.012097 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Environment/_Resources/Models/HouseDoor_01.fbx
+  artifactKey: Guid(b4270f43d7c790c44847a6b451b2bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/_Resources/Models/HouseDoor_01.fbx using Guid(b4270f43d7c790c44847a6b451b2bc45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a29034644d92412145a2bc6e53b9874') in 0.017043 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment/_Resources/Models/Ground_01.fbx
+  artifactKey: Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/_Resources/Models/Ground_01.fbx using Guid(d4ad967689295ba4eaf8baeaebc8721b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff80aad278622afe6e04229f73b9ab9') in 0.007533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Environment/_Resources/Models/Flowers_01.fbx
+  artifactKey: Guid(b5a80b3e2a089b841b155d7c7f461e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/_Resources/Models/Flowers_01.fbx using Guid(b5a80b3e2a089b841b155d7c7f461e7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d020d86baecf77b8709c581e4b76cd6') in 0.017888 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
